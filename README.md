@@ -13,9 +13,7 @@ Test-driven development and client-side caching for improved performance.
 Pagination for handling large data sets in the class list.
 Clean and professional-level code structure.
 Directory Structure
-php
-Copy code
-.
+
 ├── backend/
 │   ├── models/
 │   │   └── Class.js         # Data structure for class management
@@ -39,13 +37,10 @@ Make sure you have Node.js and npm installed.
 
 Clone the repository:
 
-bash
-Copy code
 git clone <repo-url>
 Navigate to the backend/ and frontend/ folders and install the dependencies:
 
-bash
-Copy code
+
 # Backend setup
 cd backend
 npm install
@@ -56,16 +51,14 @@ npm install
 2. Running the Backend Server
 Navigate to the backend/ folder and start the server:
 
-bash
-Copy code
+
 npm start
 The backend will be running on http://localhost:5000.
 
 3. Running the Frontend Development Server
 Navigate to the frontend/ folder and start the React development server:
 
-bash
-Copy code
+
 npm start
 The frontend will be running on http://localhost:3000.
 
@@ -96,10 +89,7 @@ Test Driven Development (TDD): With manual test coverage for all routes.
 8. Running Tests
 The backend includes test-driven development practices. To run tests:
 
-bash
-Copy code
-# Backend tests
-npm test
+
 9. User Flow
 Home Page: Users can view a list of all available classes.
 Book Class: Users can book a class if space is available, otherwise, they are added to a waitlist.
